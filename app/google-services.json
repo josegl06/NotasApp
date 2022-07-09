@@ -1,0 +1,307 @@
+{
+  "project_info": {
+    "project_number": "19904414756",
+    "firebase_url": "https://goldtech-26ee4.firebaseio.com",
+    "project_id": "goldtech-26ee4",
+    "storage_bucket": "goldtech-26ee4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19904414756:android:bf5a461d77ebde4fb504b1",
+        "android_client_info": {
+          "package_name": "com.goldtech.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19904414756-fk3l5j9tc8achomk41f01nh3r7usj59b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goldtech.customer",
+            "certificate_hash": "2d78b28662c3b4667494492eb67261da2ebec0de"
+          }
+        },
+        {
+          "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0VzCeLComb3o5xUI_Xbvwn_8tAKkVLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19904414756-l026tpf5b1la2jaiuie766n427f2ka9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldtech.autosaltiro.android"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19904414756:android:b9a8da8a0edacd78b504b1",
+        "android_client_info": {
+          "package_name": "com.goldtech.foody.restaurants.tablet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0VzCeLComb3o5xUI_Xbvwn_8tAKkVLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19904414756-l026tpf5b1la2jaiuie766n427f2ka9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldtech.autosaltiro.android"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19904414756:android:5d64c7ad4e101e62b504b1",
+        "android_client_info": {
+          "package_name": "com.goldtech.foody.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0VzCeLComb3o5xUI_Xbvwn_8tAKkVLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19904414756-l026tpf5b1la2jaiuie766n427f2ka9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldtech.autosaltiro.android"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19904414756:android:54769a1064d3feb1b504b1",
+        "android_client_info": {
+          "package_name": "com.goldtech.licorfast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0VzCeLComb3o5xUI_Xbvwn_8tAKkVLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19904414756-l026tpf5b1la2jaiuie766n427f2ka9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldtech.autosaltiro.android"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19904414756:android:fd389ddc1ea17f5fb504b1",
+        "android_client_info": {
+          "package_name": "com.goldtech.notasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0VzCeLComb3o5xUI_Xbvwn_8tAKkVLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19904414756-l026tpf5b1la2jaiuie766n427f2ka9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldtech.autosaltiro.android"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19904414756:android:efcfb58fe87f23e3b504b1",
+        "android_client_info": {
+          "package_name": "com.goldtech.rentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0VzCeLComb3o5xUI_Xbvwn_8tAKkVLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19904414756-l026tpf5b1la2jaiuie766n427f2ka9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldtech.autosaltiro.android"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19904414756:android:de4e80574b0dcc62b504b1",
+        "android_client_info": {
+          "package_name": "pa.com.goldtech.autosaltiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0VzCeLComb3o5xUI_Xbvwn_8tAKkVLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19904414756-l026tpf5b1la2jaiuie766n427f2ka9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldtech.autosaltiro.android"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19904414756:android:1be6d25ee5324b34b504b1",
+        "android_client_info": {
+          "package_name": "xyz.goldtech.ventasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0VzCeLComb3o5xUI_Xbvwn_8tAKkVLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19904414756-brvq06qc7ntlbgl7hicg03pvilr300k2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19904414756-l026tpf5b1la2jaiuie766n427f2ka9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldtech.autosaltiro.android"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
