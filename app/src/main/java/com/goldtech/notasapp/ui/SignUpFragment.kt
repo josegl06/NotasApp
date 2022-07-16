@@ -140,7 +140,7 @@ class SignUpFragment : Fragment() {
             "last" to etsurname.text.toString(),
             "email" to email,
             "active" to true,
-            "date" to LocalDateTime.now()
+            "date" to " ${LocalDateTime.now().monthValue}/${LocalDateTime.now().dayOfMonth}/${LocalDateTime.now().year}"
         )
 
         // Add a new document with a generated ID

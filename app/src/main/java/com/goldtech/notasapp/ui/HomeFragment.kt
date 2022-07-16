@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.goldtech.notasapp.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -14,6 +16,8 @@ import com.google.firebase.ktx.Firebase
 class HomeFragment : Fragment() {
 
     private lateinit var auth: FirebaseAuth
+
+    private lateinit var ivCreateGroup:ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,8 +30,14 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
+        ivCreateGroup = view.findViewById(R.id.iv_create_group)
+
 
         // addListItems(ClientsRoute.getClientsList(originalList) as ArrayList<ClientsRoute>)
+
+        ivCreateGroup.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_groupFragment)
+        }
 
 
     }
