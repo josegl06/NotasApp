@@ -18,6 +18,7 @@ class HomeFragment : Fragment() {
     private lateinit var auth: FirebaseAuth
 
     private lateinit var ivCreateGroup:ImageView
+    private lateinit var ivCreateSubjects:ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,12 +32,17 @@ class HomeFragment : Fragment() {
 
 
         ivCreateGroup = view.findViewById(R.id.iv_create_group)
+        ivCreateSubjects = view.findViewById(R.id.iv_subjects)
 
 
         // addListItems(ClientsRoute.getClientsList(originalList) as ArrayList<ClientsRoute>)
 
         ivCreateGroup.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_groupFragment)
+        }
+
+        ivCreateSubjects.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_subjectsFragment)
         }
 
 

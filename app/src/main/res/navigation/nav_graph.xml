@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_groupFragment"
             app:destination="@id/groupFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_subjectsFragment"
+            app:destination="@id/subjectsFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -44,6 +47,15 @@
         tools:layout="@layout/fragment_group" >
         <action
             android:id="@+id/action_groupFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectsFragment"
+        android:name="com.goldtech.notasapp.ui.SubjectsFragment"
+        android:label="fragment_subjects"
+        tools:layout="@layout/fragment_subjects" >
+        <action
+            android:id="@+id/action_subjectsFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
 </navigation>
