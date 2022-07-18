@@ -19,6 +19,9 @@ class HomeFragment : Fragment() {
 
     private lateinit var ivCreateGroup:ImageView
     private lateinit var ivCreateSubjects:ImageView
+    private lateinit var ivStudent:ImageView
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +36,7 @@ class HomeFragment : Fragment() {
 
         ivCreateGroup = view.findViewById(R.id.iv_create_group)
         ivCreateSubjects = view.findViewById(R.id.iv_subjects)
+        ivStudent = view.findViewById(R.id.iv_student)
 
 
         // addListItems(ClientsRoute.getClientsList(originalList) as ArrayList<ClientsRoute>)
@@ -43,6 +47,10 @@ class HomeFragment : Fragment() {
 
         ivCreateSubjects.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_subjectsFragment)
+        }
+
+        ivStudent.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_studentFragment)
         }
 
 

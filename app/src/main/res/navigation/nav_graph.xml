@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_homeFragment_to_subjectsFragment"
             app:destination="@id/subjectsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_studentFragment"
+            app:destination="@id/studentFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -43,8 +46,8 @@
     <fragment
         android:id="@+id/groupFragment"
         android:name="com.goldtech.notasapp.ui.GroupFragment"
-        android:label="fragment_group"
-        tools:layout="@layout/fragment_group" >
+        android:label="Crear grupo"
+        tools:layout="@layout/fragment_group">
         <action
             android:id="@+id/action_groupFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
@@ -56,6 +59,15 @@
         tools:layout="@layout/fragment_subjects" >
         <action
             android:id="@+id/action_subjectsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentFragment"
+        android:name="com.goldtech.notasapp.ui.StudentFragment"
+        android:label="Registrar estudiantes"
+        tools:layout="@layout/fragment_student" >
+        <action
+            android:id="@+id/action_studentFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
 </navigation>
